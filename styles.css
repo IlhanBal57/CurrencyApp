@@ -1,0 +1,95 @@
+* {
+    font-family: Abel;
+}
+body{
+    max-width: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 10px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: #fff;
+    width: 225px;
+    transition: 0.8s;
+}
+.header:hover{
+    background-color: #fff;
+    color: cornflowerblue;
+}
+.header span{
+    font-size: 40px;
+    margin-left: 10px;
+}
+.header i{
+    font-size: 40px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    height: 175px;
+    box-shadow: 9px 10px 15px -6px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 9px 10px 15px -6px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 9px 10px 15px -6px rgba(0, 0, 0, 0.6);
+}
+
+.header-content>h4 {
+    font-size: 25px;
+    color: #fff;
+}
+
+input {
+    width: 110px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+select {
+    width: 75px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 0px 10px;
+}
+#footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    background-color:rgb(58, 118, 230);
+    color: #fff;
+    text-align: center;
+}
+#footer-p{
+    font-size: 17px;
+}
+#footer-a{
+    text-decoration: none;
+    color: gold;
+    transition: 0.4s;
+}
+#footer-a:hover{
+    color: #fff;
+}
